@@ -1,0 +1,27 @@
+# SSH keys and credentials
+*.pem
+*.key
+*.pub
+id_rsa*
+gcp-service-account*.json
+credentials.json
+
+# Local environment overrides
+.env
+*.local
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.idea/
+.vscode/
+
+# Homework document must NOT be committed (source code only)
+*.docx
+*.pdf
